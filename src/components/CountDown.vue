@@ -35,7 +35,7 @@ let flag = false
                         flag = true
                         clearInterval(time)
                     }
-                },100)
+                },1000)
             }
         },
         filters : {

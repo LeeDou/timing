@@ -17,6 +17,7 @@ import CountDown from './components/CountDown.vue'
         methods : {
             sendCode (value) {
                 //前面发送ajax请求成功之后调用this.start = true开始短信倒计时
+                alert('发送ajax请求');
                 this.start = true
             }
         }
